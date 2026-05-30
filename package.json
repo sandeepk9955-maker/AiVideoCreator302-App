@@ -1,0 +1,34 @@
+{
+  "name": "ai-video-creator-302",
+  "version": "1.0.0",
+  "description": "Ultra Pro SaaS AI Video Creator",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder -w",
+    "publish": "electron-builder -w -p always"
+  },
+  "author": "Ai Video Creator 302",
+  "license": "ISC",
+  "dependencies": {
+    "electron-updater": "^6.1.7"
+  },
+  "devDependencies": {
+    "electron": "^28.2.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.aivideocreator302.app",
+    "productName": "Ai Video Creator 302",
+    "win": {
+      "target": "nsis"
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "sandeepk9955-maker",
+        "repo": "AiVideoCreator302-App"
+      }
+    ]
+  }
+}
