@@ -14,8 +14,7 @@ function createWindow() {
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: false
-        },
-        // icon: path.join(__dirname, 'icon.ico') // Apna logo .ico format me yaha add kar sakte hain
+        }
     });
 
     // Aapki main HTML file ko load karega
