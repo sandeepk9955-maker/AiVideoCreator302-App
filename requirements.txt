@@ -1,0 +1,8 @@
+flask
+flask-cors
+requests
+diffusers
+transformers
+accelerate
+torch
+pyttsx3
